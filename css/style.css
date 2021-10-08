@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("/stat/bg2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.buttons{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    width: 100px;
+    
+}
+.inf{
+    display: flex;
+    flex: 12;
+    align-items: center;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.button{
+    background: white;
+    border-color: black;
+    border-radius: 30px; 
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.butimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.topimg{
+    height: 60%;
+    width: 80%;
+    
+}
+.faceimg{
+    height: 10%;
+    width: 10%;
+    border-radius: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.facediv{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ft{
+    text-align: right;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.VACimg{
+    width: 95%;
+    border-radius: 40%;
+    margin-left: 5%;
+}
+.innerlogo{
+    height: 40px;
+    width: 40px; 
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.socialnetworks{
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 30%;
+    margin-top: 20px;
+}
+
