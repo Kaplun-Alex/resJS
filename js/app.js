@@ -21,7 +21,7 @@ let edumes =   "<h2>Beetroot Academy</h2>\
                 2004 — 2008<br>\
                 Master's degree, Protection of information in information systems and networks.   A+<br>"
 let expmes =    "<h2>StarLightMedia - Junior Python developer</h2>\
-                01.03.2021 — to date<br>\
+                01.03.2021 — 24.06.2021<br>\
                 Create python database multiservices/application<br><br>\
                 <h2>StarLightMedia  -  CSO(security systems engineer)</h2>\
                 2017 — to date<br>\
@@ -32,20 +32,21 @@ let expmes =    "<h2>StarLightMedia - Junior Python developer</h2>\
                 Full cycle of implementation of technical security systems.\
                 Service Center Management. Development of security systems<br><br>"
 let skilmes =   "<h2>Lang/Libraries/Modules/Frameworks:</h2>\
-                Python, JS, OS, SYS, Argparse, Tkinter, PyQt, Socket, Decimal, Random, Struct, Array,\
-                Doctest, Pytest, Unittest, MySql, SQLite, PyUSB, HIDUSB, Threading,\
-                Multiprocessing, Keyboard, mako, Jinja2, Logging, Numpy, Matplotlib,\
-                Beautiful Soup, Django, mongoDB, Unittest, CSS, html, Redis.<br><br>\
+                Python, JS, CSS(flaxbox, grid), HTML, Django, MySql, SQLite, mongoDB(cloud), Redis, OS, SYS, Argparse, Tkinter, PyQt, Socket, Decimal, Random, Struct, Array,\
+                Doctest, Pytest, Unittest,  PyUSB, HIDUSB, Threading,\
+                Multiprocessing, Embedd Python Ex, Keyboard, mako, Jinja2, Logging, Numpy, Matplotlib,\
+                Beautiful Soup, Unittest, .<br><br>\
                 <h2>Additional:</h2>\
-                Win, Linux(Ubuntu), heroku,  AWS, GIT, Github, Tortoise SVN, PyCharm, Slack, Codespaces beta, \
-                OOP, Technical background, Visual Studio Code"
+                Win, Linux(Ubuntu), heroku,  AWS, GIT, Github, Tortoise SVN, PyCharm, Visual Studio Code, Slack, Codespaces beta, \
+                Technical background. "
 let contmes = " <h2>PHONE:</h2><br>\
-                <h3>+38-067-381-80-46</h3><br>\
+                <h3>+38-067-381-80-46  (Telegram, Viber)</h3><br>\
                 <h2>E-MAIL:</h2><br>\
                 <h3>Kaplunalex1985@gmail.com</h3><br>\
-                <h2>KIEV REGION</h2>"
+                <h2>KYIV REGION</h2>"
 
-let sertmes = "<img src='stat/sert.jpg' class='butimg'></img>"
+let sertmes = "<img src='stat/SERT.jpg' class='butimg' style='width: 35%;'></img>\
+                <div style='align: center;'><h1 style='align: center; margin-left: 30px;'>plus Englisch by Beetroot</h1></div>"
 
 let abbut = document.getElementById('ABbut')
 let infblock = document.getElementById('inf-block')
@@ -63,6 +64,7 @@ let infblock = document.getElementById('inf-block')
         skbut.style.borderWidth='2px'
         courbut.style.borderWidth='2px'
         bgbut.style.borderWidth='2px'
+        infblock.style.flexDirection="column"
         infblock.style.background= "white"
         infblock.style.borderRadius= "30px"
         infblock.style.alignItems="flex-start"
@@ -84,6 +86,7 @@ let edubut = document.getElementById('EDbut')
         skbut.style.borderWidth='2px'
         courbut.style.borderWidth='2px'
         bgbut.style.borderWidth='2px'
+        infblock.style.flexDirection="column"
         infblock.style.background= "white"
         infblock.style.borderRadius= "30px"
         infblock.style.alignItems="flex-start"
@@ -104,6 +107,7 @@ let contbut = document.getElementById('CONTbut')
         skbut.style.borderWidth='2px'
         courbut.style.borderWidth='2px'
         bgbut.style.borderWidth='2px'
+        infblock.style.flexDirection="column"
         infblock.style.background= "none"
         infblock.style.borderRadius= "30px"
         infblock.style.alignItems="center"
@@ -124,6 +128,7 @@ let exbut = document.getElementById('EXbut')
         skbut.style.borderWidth='2px'
         courbut.style.borderWidth='2px'
         bgbut.style.borderWidth='2px'
+        infblock.style.flexDirection="column"
         infblock.style.background= "white"
         infblock.style.borderRadius= "30px"
         infblock.style.alignItems="flex-start"
@@ -144,6 +149,7 @@ let skbut = document.getElementById('SKbut')
         skbut.style.borderWidth='5px'
         courbut.style.borderWidth='2px'
         bgbut.style.borderWidth='2px'
+        infblock.style.flexDirection="column"
         infblock.style.background= "white"
         infblock.style.borderRadius= "30px"
         infblock.style.alignItems="flex-start"
@@ -166,7 +172,9 @@ let courbut = document.getElementById('COURbut')
         courbut.style.borderWidth='5px'
         bgbut.style.borderWidth='2px'
         infblock.style.background= "none"
-        infblock.innerHTML=""
+        infblock.style.flexDirection="row"
+        infblock.style.alignItems="center"
+        infblock.innerHTML=sertmes
     }
 let bgbut = document.getElementById('BGRDbut')
     bgbut.onmouseover=function(){
@@ -183,6 +191,7 @@ let bgbut = document.getElementById('BGRDbut')
         skbut.style.borderWidth='2px'
         courbut.style.borderWidth='2px'
         bgbut.style.borderWidth='5px'
+        infblock.innerHTML=""
     }
 
 
